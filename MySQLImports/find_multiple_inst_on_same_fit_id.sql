@@ -1,0 +1,1 @@
+select fit_installations_30_Jun_2013.* from fit_installations_30_Jun_2013, (select fit_id, f_count from (select fit_id,count(fit_id) as f_count from fit_installations_30_Jun_2013 group by fit_id) as mFit where f_count > 1) as multi_fit_id where fit_installations_30_Jun_2013.fit_id = multi_fit_id.fit_id

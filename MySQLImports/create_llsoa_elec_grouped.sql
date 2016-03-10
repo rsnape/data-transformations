@@ -1,0 +1,1 @@
+create table `llsoa_elec_grouped` select llsoa_code, sum(ordinary_cons_kwh), sum(ec_7_cons_kwh), sum(total_cons_kwh), sum(num_ordinary_meters), sum(num_econ_7_meters), sum(num_total_meters) from llsoa_no_unalloc group by llsoa_code

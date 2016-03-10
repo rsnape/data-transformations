@@ -1,0 +1,2 @@
+FIT_ID,Post_Code_District, Post_Code_Area ,Technology_Type,Installed_Capacity_kW,Declared_Net_Capacity_kW,Application_Date,Commissioned_Date,Export_Status_Type,Tariff_Code,Description,Installation_Type,Country_Name,Local_Authority,Government_Office_Region,Accreditation_No,Supply_MPAN_No_first_2_digits,Community/School_category_Applicable_from_01/12/2012,LLSOA_Code
+FIT00000001,TR11, TR ,Photovoltaic,2.88,2.88,07/04/2010,24/03/2010,Export (deemed),PV-R/0-4/01,PV (<=4kW (retrofit))-2010/11,Domestic,England,Cornwall,South West,MCS-00000110-C,22,,E01018840

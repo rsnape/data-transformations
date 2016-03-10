@@ -1,0 +1,1 @@
+create table "PV_per_mpan_area" as select supply_mpan_no_first_2_digits,sum(installed_capacity_kw),count(fit_id) from fit_installations where technology_type='Photovoltaic' group by fit_installations.supply_mpan_no_first_2_digits

@@ -1,0 +1,1 @@
+create table "PV_per_pcode_dist" as select post_code_district,sum(installed_capacity_kw),count(fit_id) from fit_installations where technology_type='Photovoltaic' group by post_code_district

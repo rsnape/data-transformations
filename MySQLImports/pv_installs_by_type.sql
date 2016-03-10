@@ -1,0 +1,1 @@
+select fit_installations_30_Jun_2013.installation_type, count(fit_installations_30_Jun_2013.declared_net_capacity_kw), sum(fit_installations_30_Jun_2013.declared_net_capacity_kw) from fit_installations_30_Jun_2013 where technology_type="Photovoltaic" group by fit_installations_30_Jun_2013.installation_type 

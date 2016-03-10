@@ -1,0 +1,1 @@
+select date_trunc('week', commissioned_date) as wc, sum(installed_capacity_kw) as cap_kw, count(installed_capacity_kw) as num from fit_installations where technology_type = 'Photovoltaic' and installation_type = 'Domestic' group by wc order by wc;

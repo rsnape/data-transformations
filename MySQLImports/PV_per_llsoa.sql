@@ -1,0 +1,1 @@
+select llsoa_code,sum(installed_capacity_kw),count(fit_id) from fit_installations where technology_type="Photovoltaic" group by llsoa_code

@@ -1,0 +1,1 @@
+show columns from fit_installations_30_Jun_2013

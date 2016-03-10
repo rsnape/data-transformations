@@ -1,0 +1,1 @@
+select , fit_installations_30_Jun_2013.post_code_district, count(fit_id), sum(fit_installations_30_Jun_2013.declared_net_capacity_kw)from fit_installations_30_Jun_2013 where fit_installations_30_Jun_2013.commissioned_date < date("2010-04-01") group by fit_installations_30_Jun_2013.post_code_district

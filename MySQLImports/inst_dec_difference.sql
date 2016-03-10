@@ -1,0 +1,1 @@
+select fit_installations_30_Jun_2013.installed_capacity_kw - fit_installations_30_Jun_2013.declared_net_capacity_kw as diff, fit_installations_30_Jun_2013.* from fit_installations_30_Jun_2013 where fit_installations_30_Jun_2013.installed_capacity_kw - fit_installations_30_Jun_2013.declared_net_capacity_kw < 0 and technology_type = "Photovoltaic"

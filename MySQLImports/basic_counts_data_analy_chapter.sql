@@ -1,0 +1,1 @@
+select technology_type,count(fit_id) from (select distinct fit_id, technology_type from fit_installations_30_Jun_2013) as distinct_fits group by technology_type

@@ -1,0 +1,1 @@
+select llsoa_code,sum(installed_capacity_kw),count(fit_id) from fit_installations group by llsoa_code

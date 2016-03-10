@@ -1,0 +1,1 @@
+explain (select distinct census_population_llsoa_2011.*,pv_installs_by_llsoa.num_installs_010410 from census_population_llsoa_2011 left join pv_installs_by_llsoa on census_population_llsoa_2011.lsoa_code = pv_installs_by_llsoa.llsoa_code)
